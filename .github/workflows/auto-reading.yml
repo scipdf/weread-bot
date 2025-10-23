@@ -62,7 +62,7 @@ jobs:
         app:
           name: "WeReadBot-GitHub-Action"
           startup_mode: "immediate"
-          startup_delay: "1-180"
+          startup_delay: "1-300"
 
         reading:
           mode: "${{ github.event.inputs.reading_mode || 'smart_random' }}"
